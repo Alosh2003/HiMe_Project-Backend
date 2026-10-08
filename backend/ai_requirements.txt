@@ -1,0 +1,22 @@
+# AI Matching & Analytics Dependencies
+# Epic 06 - Sprint 4
+
+# Embedding generation
+sentence-transformers==2.2.2
+torch>=2.0.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Similarity computation
+scikit-learn>=1.3.0
+
+# Optional: For production vector storage
+# pgvector==0.2.0  # If using PostgreSQL pgvector extension
+
+# Optional: For async task processing
+# celery>=5.3.0
+# redis>=4.6.0
+
+# Optional: For caching embeddings
+# redis>=4.6.0
